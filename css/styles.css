@@ -646,12 +646,12 @@ row-gap: 90px;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scaleX(1) rotate(360deg);
-  transition: transform 2500ms var(--time-duration);
+  transform: translate(-50%, -50%) scaleY(1) rotate(360deg);
+  transition: transform 250ms var(--time-duration);
 }
 
 .backdrop.is-hidden .modal{
-  transform: translate(-50%, -50%) scale(0) rotate(0deg);
+  transform: translate(-50%, -50%) scaleY(0) rotate(0deg);
   
 }
 

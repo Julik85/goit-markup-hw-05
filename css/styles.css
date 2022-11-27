@@ -401,9 +401,7 @@ bottom: 0;
 .team {
   display: flex;
   gap: 30px;
-
-  padding-bottom: 30px;
-  /* border-radius: 0px 0px 4px 4px; */
+    /* border-radius: 0px 0px 4px 4px; */
 }
 
 .team-item {
